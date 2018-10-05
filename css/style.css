@@ -8,11 +8,11 @@ body{
 }
 
 .header{
-  background: linear-gradient(rgba(9, 20, 43, 0.95), rgba(53, 78, 95, 0.5)), url("../img/nb-code.jpg") 0% 0%/cover no-repeat;
+  background: linear-gradient(rgba(9, 20, 43, 0.95), rgba(53, 78, 95, 0.5)), url("../img/desk_laptop.jpg") 0% 0%/cover no-repeat;
 }
 
 .about{
-  background: url("../img/nb-window.jpg") 0% 0%/cover no-repeat;
+  background: url("../img/nb-code.jpg") 0% 0%/cover no-repeat;
 }
 
 .fill-vport-95{
@@ -48,3 +48,7 @@ body{
 .text-black-70{
     color: rgba(0, 0, 0, 0.7);  
 }
+.text-black-80{
+    color: rgba(0, 0, 0, 0.8);  
+}
+
