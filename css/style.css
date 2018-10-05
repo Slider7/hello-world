@@ -1,0 +1,50 @@
+body{ 
+    padding-top: 50px;
+}
+
+#img-logo{
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+}
+
+.header{
+  background: linear-gradient(rgba(9, 20, 43, 0.95), rgba(53, 78, 95, 0.5)), url("../img/nb-code.jpg") 0% 0%/cover no-repeat;
+}
+
+.about{
+  background: url("../img/nb-window.jpg") 0% 0%/cover no-repeat;
+}
+
+.fill-vport-95{
+    min-height: 95vh 
+}
+
+.fill-80-view{
+    min-height: 80vh 
+}
+
+.center-vert{
+    display: flex;
+    align-items: center;
+}
+
+.text-white-90{
+   color: rgba(255,255,255, 0.9);
+}
+
+.text-white-40{
+    color: rgba(255,255,255, 0.4);
+}
+.text-white-90-shade{
+    color: rgba(255,255,255, 0.9);
+    text-shadow: 0 0 2px #fff;
+}
+.text-white-70{
+    color: rgba(255,255,255, 0.7);
+}
+.text-black-40{
+    color: rgba(0, 0, 0, 0.4);  
+}
+.text-black-70{
+    color: rgba(0, 0, 0, 0.7);  
+}
