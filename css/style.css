@@ -55,6 +55,12 @@ body{
 .carousel-caption {
     color: rgba(0, 0, 0, 0.8); 
     z-index: 99;
+    background-color: rgba(200, 200, 220, 0.8);
+    text-align: justify;
+    width: 60%;
+    height: 15%;
+    margin: 0 auto;  
+    border-radius: 8px;
 }
 
 .carousel-caption p {
@@ -72,4 +78,8 @@ body{
   font-size: 78pt;
   color: navy;
   text-shadow: 0 0 2px #fff;
+}
+
+.site-btn{
+  line-height: 1.3rem;
 }
