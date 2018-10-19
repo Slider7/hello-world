@@ -8,11 +8,11 @@ body{
 }
 
 .header{
-  background: linear-gradient(rgba(9, 20, 43, 0.95), rgba(53, 78, 95, 0.5)), url("../img/desk_laptop.jpg") 0% 0%/cover no-repeat;
+  background: linear-gradient(rgba(9, 20, 43, 0.95), rgba(53, 78, 95, 0.5)), url("../img/desk_laptop.jpg") 0% 0%/cover no-repeat fixed;
 }
 
 .about{
-  background: url("../img/nb-code.jpg") 0% 0%/cover no-repeat;
+  background: url("../img/nb-code.jpg") 0% 0%/cover no-repeat fixed;
 }
 
 .fill-vport-95{
@@ -52,3 +52,24 @@ body{
     color: rgba(0, 0, 0, 0.8);  
 }
 
+.carousel-caption {
+    color: rgba(0, 0, 0, 0.8); 
+    z-index: 99;
+}
+
+.carousel-caption p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.0rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+  font-size: 78pt;
+  color: navy;
+  text-shadow: 0 0 2px #fff;
+}
