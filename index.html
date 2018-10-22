@@ -26,17 +26,17 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
-				  <a class="nav-item nav-link active" href="#header">В начало <span class="sr-only">(current)</span></a>
-				  <a class="nav-item nav-link" href="#about">Обо мне</a>
-				  <a class="nav-item nav-link" href="#portfolio">Портфолио</a>
-				  <a class="nav-item nav-link" href="#contact">Контакты</a>
+				  <a class="nav-item nav-link active" href="#section-header">В начало <span class="sr-only">(current)</span></a>
+				  <a class="nav-item nav-link" href="#section-about">Обо мне</a>
+				  <a class="nav-item nav-link" href="#section-portfolio">Портфолио</a>
+				  <a class="nav-item nav-link" href="#section-contact">Контакты</a>
 				</div>
 		  </div>
 	  </div>	
 		
 	</nav>
 
-  <header class="header d-flex" id="header">
+  <header class="header d-flex" id="section-header">
     <div class="container">
       <div class="row fill-vport-95 align-items-center">
         <div class="col-12">
@@ -48,7 +48,7 @@
     </div>  
   </header>
 
-  <section class="about container" id="about">
+  <section class="about container" id="section-about">
     <div class="row align-items-center fill-vport-95">
     	<div class="col-12 col-md-6 d-none d-sm-block">
     	</div>	
@@ -61,7 +61,7 @@
     </div>
   </section>
 
-  <section class="portfolio container" id="portfolio">
+  <section class="portfolio container" id="section-portfolio">
   	<h2 class="my-4 text-black-80 text-center">Портфолио</h2>
 		<div class="row fill-vport-95">
 		  <div class="col-md-6">
@@ -70,7 +70,7 @@
 		        <h5 class="card-title">Сайт фирмы "VA Lombard"</h5>
 		        <p class="card-text">Bootstrap 4 + немного JQuery / PHP.</p>
 		        <img src="img/valombard-img.png" alt="Project 1" class="d-block mx-auto img-fluid">
-		        <a class="btn btn-dark site-btn" href="http://valombard.kemal.kz">Посмотреть сайт</a>
+		        <a class="btn btn-dark site-btn" href="http://valombard.kemal.kz" target="_blank" rel="noreferrer">Посмотреть сайт</a>
 		      </div>
 		    </div>
 		  </div>
@@ -80,7 +80,7 @@
 		        <h5 class="card-title">Сайт сервисной фирмы ИП "Ким"</h5>
 		        <p class="card-text">CMS WordPress + Woocommerce.</p>
 		        <img src="img/ip-kim-img.png" alt="Project 2" class="d-block mx-auto img-fluid">
-		        <a class="btn btn-dark site-btn" href="http://ip-kim.kemal.kz">Посмотреть сайт</a>
+		        <a class="btn btn-dark site-btn" href="http://ip-kim.kemal.kz" target="_blank" rel="noreferrer">Посмотреть сайт</a>
 		      </div>
 		    </div>
 		  </div>
@@ -90,7 +90,7 @@
 		        <h5 class="card-title">Сайт "Какая сейчас погода?"</h5>
 		        <p class="card-text">JQuery, использование API.</p>
             <img src="img/weather-img.png" alt="Project 3" class="d-block mx-auto img-fluid">
-						<a class="btn btn-dark site-btn" href="http://weather.kemal.kz">Посмотреть сайт</a>
+						<a class="btn btn-dark site-btn" href="http://weather.kemal.kz" target="_blank" rel="noreferrer">Посмотреть сайт</a>
 		      </div>
 		    </div>
 		  </div>
@@ -100,16 +100,33 @@
 		        <h5 class="card-title">Игра "Крестики-нолики"</h5>
 		        <p class="card-text">Написано на "чистом" JavaScript.</p>
 		        <img src="img/tick-tack-img.png" alt="Project 4" class="d-block mx-auto img-fluid">
-						<a class="btn btn-dark site-btn" href="http://tick-tack.kemal.kz">Посмотреть сайт</a>		      
+						<a class="btn btn-dark site-btn" href="http://tik-tak.kemal.kz" target="_blank" rel="noreferrer">Посмотреть сайт</a>		      
 					</div>
 		    </div>
 		  </div>
 		</div>
   </section>
 
-  <footer class="footer" id="contact">
-  	
-  </footer>
+  <footer class="footer bg-light container py-3 py-sm-5" id="section-contact">
+    <div class="row">
+			<div class="col-12 col-sm-6 col-lg-3">
+			  <h6>Навигация: </h6>
+			  <ul class="list-unstyled">
+			    <li><a href="#section-header">В начало</a></li>
+			    <li><a href="#section-about">Обо мне</a></li>
+			    <li><a href="#section-portfolio">Портфолио</a></li>
+			  </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-3">
+			  <h6>Как со смной связаться:</h6>
+			  <address>
+			    <strong>Контакты: </strong><br>
+			    <i class="fa fa-fw fa-phone" aria-hidden="true"></i><span class="sr-only">Телефон:</span> <a href="tel:+87777180029">+7(777) 718-0029</a><br>
+			    <i class="fa fa-fw fa-inbox" aria-hidden="true"></i><span class="sr-only">e-mail:</span> <a href="mailto:kemalsh771@google.com">kemalsh771@google.com</a>
+			  </address>
+			</div>
+    </div>
+	</footer>
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -121,10 +138,6 @@
   <script type="text/javascript">
 	  $(function () {
 	    var scroll = new SmoothScroll('a[href*="#section-"]');
-
-				$('.carousel').carousel({
-				  interval: 2000
-				});
 		});
 	</script>
 
