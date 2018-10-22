@@ -1,0 +1,94 @@
+body{ 
+    padding-top: 50px;
+}
+
+section{
+  padding-top: 30px; 
+}
+
+#img-logo{
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+}
+
+.header{
+  background: linear-gradient(rgba(9, 20, 43, 0.95), rgba(53, 78, 95, 0.5)), url("../img/desk_laptop.jpg") 0% 0%/cover no-repeat fixed;
+}
+
+.about{
+  background: url("../img/nb-code.jpg") 0% 0%/cover no-repeat fixed;
+}
+
+.fill-vport-95{
+    min-height: 95vh 
+}
+
+.fill-80-view{
+    min-height: 80vh 
+}
+
+.center-vert{
+    display: flex;
+    align-items: center;
+}
+
+.text-white-90{
+   color: rgba(255,255,255, 0.9);
+}
+
+.text-white-40{
+    color: rgba(255,255,255, 0.4);
+}
+.text-white-90-shade{
+    color: rgba(255,255,255, 0.9);
+    text-shadow: 0 0 2px #fff;
+}
+.text-white-70{
+    color: rgba(255,255,255, 0.7);
+}
+.text-black-40{
+    color: rgba(0, 0, 0, 0.4);  
+}
+.text-black-70{
+    color: rgba(0, 0, 0, 0.7);  
+}
+.text-black-80{
+    color: rgba(0, 0, 0, 0.8);  
+}
+
+.carousel-caption {
+    color: rgba(0, 0, 0, 0.8); 
+    z-index: 99;
+    background-color: rgba(200, 200, 220, 0.9);
+    text-align: justify;
+    width: 60%;
+    height: 15%;
+    margin: 0 auto;  
+    border-radius: 8px;
+    border: 2px solid DimGray; 
+}
+
+.carousel-caption p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.0rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image: none;
+  font-size: 78pt;
+  color: navy;
+  text-shadow: 0 0 2px #fff;
+}
+
+.site-btn{
+  line-height: 1.3rem;
+}
+
+.card{
+  margin: 12pt;
+}
